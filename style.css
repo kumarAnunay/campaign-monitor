@@ -1,0 +1,108 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.header{
+    grid-area: header;
+    background-color: #111324;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+.main-1{
+    grid-area: main-1;
+    background-color: #ffffff;
+    height: 800px;
+}
+.banner-1{
+    grid-area: banner-1;
+    background-color: #f6f6f7;
+    height: 300px;
+}
+.banner-2{
+    grid-area: banner-2;
+    background-color: #ffffff;    
+    height: 150px;
+}
+.section-1{
+    grid-area: section-1;
+    background-color: #ffffff;
+    height: 700px;
+}
+.banner-3{
+    grid-area: banner-3;
+    background-color: #ffffff;
+    height: 150px;
+}
+.section-2{
+    grid-area: section-2;
+    background-color: #f6f6f7;
+    height: 600px;
+}
+.main-2{
+    grid-area: main-2;
+    height: 600px;
+}
+.section-3{
+    grid-area: section-3;
+    background-color: #fff;
+    height: 400px;
+}
+
+.aside-1{
+    grid-area: aside-1;
+    background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/heroes/banner-ripcurl.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.aside-2{
+    grid-area: aside-2;
+    height: 500px;
+}
+.section-4{
+    grid-area: section-4;
+    background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/home/thegist-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.main-3{
+    grid-area: main-3;
+    background: linear-gradient(to right,#7856ff 0%,#65b9ff 100%);
+    height: 550px;
+}
+.footer{
+    grid-area: footer;
+    background-color: #111324;
+    height: 700px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header" 
+        "main-1"
+        "banner-1"
+        "banner-2"
+        "section-1"
+        "banner-3"
+        "section-2"
+        "main-2"
+        "section-3"
+        "aside-1"
+        "aside-2"
+        "section-4"
+        "main-3"
+        "footer";
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
