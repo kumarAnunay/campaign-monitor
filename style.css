@@ -273,3 +273,35 @@ div.main-1-text .para2{
     background-color: #7856ff;
     color: #fff !important;
 }
+
+.banner-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para3{
+    color: #111324;
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.banner-img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 60px 0 60px !important;
+}
+
+div.banner-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.banner-2 > p{
+    color: #111324;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px !important;
+}
