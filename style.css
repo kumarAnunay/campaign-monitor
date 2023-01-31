@@ -4,6 +4,11 @@
     box-sizing: border-box !important;
 }
 
+body{
+    font-family: 'Graphik Web',Helvetica,sans-serif !important;
+    overflow-x: hidden;
+}
+
 .header{
     grid-area: header;
     background-color: #111324;
@@ -14,41 +19,49 @@
 .main-1{
     grid-area: main-1;
     background-color: #ffffff;
-    height: 800px;
+    height: 700px;
+    width: 100vw;
 }
 .banner-1{
     grid-area: banner-1;
     background-color: #f6f6f7;
     height: 300px;
+    width: 100vw;
 }
 .banner-2{
     grid-area: banner-2;
     background-color: #ffffff;    
     height: 150px;
+    width: 100vw;
 }
 .section-1{
     grid-area: section-1;
     background-color: #ffffff;
     height: 700px;
+    width: 100vw;
 }
 .banner-3{
     grid-area: banner-3;
     background-color: #ffffff;
     height: 150px;
+    width: 100vw;
 }
 .section-2{
     grid-area: section-2;
     background-color: #f6f6f7;
     height: 600px;
+    width: 100vw;
 }
 .main-2{
     grid-area: main-2;
     height: 600px;
+    width: 100vw;
 }
 .section-3{
     grid-area: section-3;
     background-color: #fff;
     height: 400px;
+    width: 100vw;
 }
 
 .aside-1{
@@ -56,11 +69,13 @@
     background-image: url("https://www.campaignmonitor.com/wp-content/themes/cm-theme/assets/images/heroes/banner-ripcurl.jpg");
     background-size: cover;
     height: 400px;
+    width: 100vw;
 }
 
 .aside-2{
     grid-area: aside-2;
     height: 500px;
+    width: 100vw;
 }
 .section-4{
     grid-area: section-4;
@@ -68,16 +83,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+    width: 100vw;
 }
 .main-3{
     grid-area: main-3;
     background: linear-gradient(to right,#7856ff 0%,#65b9ff 100%);
     height: 550px;
+    width: 100vw;
 }
 .footer{
     grid-area: footer;
     background-color: #111324;
     height: 700px;
+    width: 100vw;
 }
 
 .container{
@@ -103,6 +121,155 @@
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
+.img-1{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px !important;
+    margin-top: 32px !important;
+}
+
+ul.list-1{
+    display: flex;
+    margin-top: 30px !important;
+}
+
+ul.list-2{
+    display: flex;
+    margin-top: 30px !important;
+    margin-right: 50px !important;
+}
+
+ul.list-1 li{
+    margin-right: 15px !important;
+    font-weight: 200 !important;
+}
+
+ul.list-2 li{
+    margin-right: 15px !important;
+}
+
+.dropdown button{
+    border: none !important;
+    background-color: transparent !important;
+    margin-top: 1px !important;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+ul.list-1 li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.dropdown-menu a{
+    color: #111324 !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #51cfdb;
+}
+
+ul.list-2 li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 200;
+    overflow: hidden;
+}
+
+li .a-3{
+    border: 1px solid #51cfdb !important;
+    background-color: #51cfdb !important;
+    color: #111324 !important;
+    padding: 12px 7px !important;
+    font-weight: 600 !important;
+    word-spacing: -4px !important;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+ul.list-1 li a:hover{
+    color: #4eaaa5;
+}
+
+ul.list-2 li a:hover{
+    color: #4eaaa5;
+}
+
+
+div.main-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.main-1-text{
+    width: 600px;
+    height: 600px;
+    margin-top: 180px !important;
+    margin-left: 10px !important;
+}
+
+div.main-1-text .para1{
+    width: 500px;  
+    font-size: 55px;
+    font-weight: bold !important;
+    color: #111324;
+    font-family: 'Graphik Web',Helvetica,sans-serif;
+    text-align: left;
+    line-height: 60px;
+}
+
+div.main-1-img img{
+    width: 510px;
+    height: 500px;
+    margin-top: 115px !important;
+    margin-right: 40px !important;
+}
+
+div.main-1-text .para2{
+    font-size: 20px;
+    margin-top: 40px !important;
+}
+
+.main-anchor{
+    margin-top: 50px !important;
+}
+
+.main-a{
+    border: 1px solid rgb(90, 77, 137);
+    border-radius: 3px;
+    padding: 20px 40px !important;
+    background-color: #7856ff;
+    color: #fff;
+    text-decoration: none !important;
+    margin-right: 8px !important;
+}
+
+.main-b{
+    border: 1px solid rgb(90, 77, 137);
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 20px 60px !important;
+    color: #7856ff;
+    text-decoration: none !important;
+}
+
+.main-a:hover{
+    background-color: #8c74ec;
+    color: #fff !important;
+}
+
+.main-b:hover{
+    background-color: #7856ff;
+    color: #fff !important;
+}
